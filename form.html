@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="grade">Grade:</label>
+    <input type="number" id="grade" name="grade" min="1" max="100" required><br>
+
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" required><br>
+
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color" required><br>
+
+    <label for="filetype">Favorite File Type:</label>
+    <select id="filetype" name="filetype" required>
+      <option value="HTML">HTML</option>
+      <option value="JS">JavaScript</option>
+      <option value="CSS">CSS</option>
+    </select><br>
+
+    <label for="vegan">Vegan?</label>
+    <input type="checkbox" id="vegan" name="vegan"><br>
+
+    <label for="animal">Favorite Animal:</label><br>
+    <input type="radio" id="dog" name="animal" value="dog">
+    <label for="dog">Dog</label><br>
+    <input type="radio" id="cat" name="animal" value="cat">
+    <label for="cat">Cat</label><br>
+    <input type="radio" id="fish" name="animal" value="fish">
+    <label for="fish">Fish</label><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+  </form>
+</body>
+</html>
